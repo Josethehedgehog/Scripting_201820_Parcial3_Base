@@ -5,6 +5,7 @@ using UnityEngine.AI;
 [RequireComponent(typeof(Collider))]
 public abstract class ActorController : MonoBehaviour
 {
+    
     protected NavMeshAgent agent;
 
     [SerializeField]
@@ -67,5 +68,10 @@ public abstract class ActorController : MonoBehaviour
             print(string.Format("Changing color to {0}", gameObject.name));
             renderer.material.color = val ? taggedColor : baseColor;
         }
+    }
+
+    public void StopMovement()
+    {
+        agent.speed = 0;
     }
 }
