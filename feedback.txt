@@ -1,0 +1,16 @@
+Feedback
+
+Examen (0.45/5.0)
+ * Error de compilación en FleeFromTarget. Gracias a eso, el programa no funciona.
+ * Al parecer hay un bug, y cuando el tagged es un Ai y el player toca a un AI que no es el tagged, este se pone rojo y quedan dos tagged.
+ * GameController no configura el tiempo de juego.
+ * GameController no configura la cantidad de jugadores (bueno, lo hace parcialmente. Tengo que modificar un arreglo a mano) (0.25/0.5)
+ * BT (0.2 /1.8)
+	* FleeFromTarget tiene errores de compilación. La lógica está bien, pero 'chaser' no se obtiene de ningún lado válido.
+	* El resto de nodos no están implementados.	
+
+Bonificación (0.0/0.5)
+
+Compensación : 1.0
+
+Total: 1.45 /5.0
